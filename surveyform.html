@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <fieldset>
+    <legend><h1 class="title">Programming Languages Survey Form</h1></legend>
+    <div id="main">
+      <form id="survey-form">
+        <div id="text-field">
+          <label id="name-label"><b>First Name:</b></label> 
+          <input type="text" name="name" id="name" class="form" required placeholder="First Name"> <br> <br>
+          <label id="name-label"><b>Last Name:</b></label> 
+          <input type="text" id="name" name="name" class="form" required placeholder="Last Name"> <br> <br>
+          <label id="number-label"><b>Age:</b></label> 
+          <input id="date" type="date" name="date" class="form" min="5" max="99" placeholder=""> <br> <br>
+          <label id="email-label"><b>Email:</b></label> 
+          <input id="email" type="email" name="email" class="form" required placeholder="example@gmail.com"> <br> <br>
+          <label><b>Gender:</b></label>  <br> 
+          <input type="radio" name="gender" id="Male">Male <br> 
+          <input type="radio" name="gender" id="Female">Female <br>
+          <input type="radio" name="gender" id="Other">Other <br>
+          <input type="radio" name="gender" id="Prefered not to say">Prefered not to say <br>
+        </div>
+      <div id="dropdown-div"> <br>
+        <label id="dropdown-label"><strong>Programming Language you are expert at: </strong></label> <br> <br>
+        <select name="code-lang" id="dropdown" class="form">
+          <option value="Select">Select</option>
+          <option value="Html">Html</option>
+          <option value="Css">Css</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="Python">Python</option>
+          <option value="Java">Java</option>
+          <option value="C++">C++</option>
+        </select>
+      </div>  
+      <div id="dropdown"><br> 
+            <label id="dropdown-label"><strong>Programming language you want to Learn: </strong></label><br> <br>
+            <select id="dropdown" name="code-lang" class="form"><br><br>
+              <option value="Select">Select</option>
+                <option value="Html">Html</option>
+                <option value="Css">css</option>
+                <option value="Javascript">Javascript</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="Go">Go (Programming Language)</option>
+                <option value="C++">C++</option>
+                <option value="Django">Django</option>
+            </select>
+      </div>
+      <div id="last"> <br> 
+        <label id="suggestions"><b>Do you have any suggestions about this survey ?</b></label> <br> <br>
+        <textarea style="height: 120px;"  cols="30" rows="10" class="form" placeholder="Write Something........"></textarea> <br> <br>
+        <input id="submit" type="submit" class="click to submit" onclick="alert('Successfully registered! We Will Contact You Back')">
+      </div>
+        </div>
+      </form>
+    </div>
+  </fieldset>  
+</body>
+</html>
